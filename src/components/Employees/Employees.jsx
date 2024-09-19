@@ -9,7 +9,7 @@ export default class Employees extends Component {
     render() {
         return <>
             <div className='bg-primary text-white text-center'>
-            <SWemployees name = {this.state.name} salary = {this.state.salary} position = {this.state.position} isManager = {this.props.isManager}/>
+            <SWemployees name = {this.state.name} salary = {this.state.salary} position = {this.state.position}/>
             </div>
         </>
 
