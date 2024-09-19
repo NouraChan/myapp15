@@ -9,7 +9,7 @@ import { Component } from 'react';
 
 export default class App extends Component{
 
-  state = {isManager : false}
+  state = {isManager : false , name : "Admin" , phone : "01645645447" , email : "nny@gm.co"}
 
   render (){ return<><div className="App">
       <Home/>
