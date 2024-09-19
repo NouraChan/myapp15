@@ -13,6 +13,6 @@ export default class App extends Component{
 
   render (){ return<><div className="App">
       <Home/>
-    <Employees isManager = {this.state.isManager} name = {this.state.name} phone = {this.state.phone} email = {this.state.email}/>
+    <Contactus name = {this.state.name} phone = {this.state.phone} email = {this.state.email}/>
  
     </div></>}}
