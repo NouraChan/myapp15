@@ -1,6 +1,6 @@
 import './App.css';
 import Home from './components/Home/Home';
-import Employees from './components/Employees/Employees';
+import Employees from './components/Contactus/Contactus';
 import "bootstrap/dist/css/bootstrap.min.css"
 import { Component } from 'react';
 
